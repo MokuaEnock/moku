@@ -1,0 +1,29 @@
+main {
+    height: 51vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    width: 100%;
+    height: 6vw;
+    border: thin solid;
+}
+
+.banner {
+    width: 100%;
+    height: 30%;
+    border: thin solid;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    border: thin solid;
+}

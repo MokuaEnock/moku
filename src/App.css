@@ -12,10 +12,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #011F26;
+  color: white;
 }
 
 #root {
-  width: 80%;
+  width: 90%;
   height: max-content;
   display: flex;
   flex-direction: column;
@@ -25,5 +27,5 @@ body {
 
 #root>* {
   width: 100%;
-  border: thin solid black;
+  border: thin solid white;
 }
