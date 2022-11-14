@@ -5,7 +5,12 @@ export default function Landing() {
   }
 
   function Info() {
-    return <div className="item-info"></div>;
+    return (
+      <div className="item-info">
+        <span></span>
+        <span></span>
+      </div>
+    );
   }
 
   function Banner() {
