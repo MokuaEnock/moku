@@ -1,4 +1,5 @@
 main {
+    margin-top: .5vw;
     height: 51vw;
     display: flex;
     flex-direction: column;
@@ -10,6 +11,65 @@ header {
     width: 100%;
     height: 6vw;
     border: thin solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main a {
+    color: #03A6A6;
+    text-decoration: none;
+}
+
+#sects {
+    width: 45%;
+    height: 100%;
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#logo>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#socials {
+    font-size: 1.5vw;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#socials>a {
+    width: 10%;
+    height: 60%;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#socials>a>img {
+    width: 100%;
 }
 
 .banner {
