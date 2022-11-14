@@ -51,7 +51,7 @@ export default function Landing() {
           </span>
           <button>Developer</button>
         </span>
-        <span>
+        <span className="smallAbout">
           A full-stack developer with over one year of industrial experience in
           various domains. Worked on multiple projects in Finance, Education and
           Medicine fields.
