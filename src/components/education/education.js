@@ -7,24 +7,22 @@ export default function Education() {
         <span className="title">Experience</span>
         <div className="edu-body">
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
-
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
-
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
         </div>
       </div>
@@ -33,24 +31,22 @@ export default function Education() {
         <span className="title">Education</span>
         <div className="edu-body">
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
-
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
-
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
         </div>
       </div>
@@ -59,27 +55,27 @@ export default function Education() {
         <span className="title">Certifications</span>
         <div className="edu-body">
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
-
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
-
           <span>
-            <h3>1. Intro to Machine Learning</h3>
-            <p>
-              <i>Kaggle</i> <button>View</button>
-            </p>
+            <span className="span-title">1. Intro to Machine Learning</span>
+            <span className="orga">
+              <i className="slant">Kaggle</i> <button>View</button>
+            </span>
           </span>
         </div>
       </div>
+
+      <button id="view-all">View All</button>
     </section>
   );
 }
