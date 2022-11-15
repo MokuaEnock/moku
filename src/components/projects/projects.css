@@ -6,13 +6,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin-top: .4vw;
 }
 
 #projects>* {
     border: thin solid;
     width: 100%;
+    margin-bottom: .5vw;
 }
 
 .projects-header {
@@ -35,7 +36,6 @@
     height: 80%;
     display: flex;
     margin-right: .5vw;
-
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
@@ -63,4 +63,22 @@
 
 input:focus {
     outline: thin solid #011F26;
+}
+
+#projects-body {
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#projects-footer {
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }

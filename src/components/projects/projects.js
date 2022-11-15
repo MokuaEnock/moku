@@ -15,11 +15,11 @@ export default function Projects() {
     );
   }
   function Body() {
-    return <div>Body</div>;
+    return <div id="projects-body">Body</div>;
   }
 
   function Footer() {
-    return <div>Footer</div>;
+    return <div id="projects-footer">Footer</div>;
   }
   return (
     <section id="projects">

@@ -68,7 +68,7 @@ export default function Landing() {
     );
   }
   return (
-    <main>
+    <main id="landing">
       <Header />
       <Banner />
       <Info />
