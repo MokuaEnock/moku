@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: .4vw;
+    border: #011F26 thin solid;
 }
 
 #projects>* {
