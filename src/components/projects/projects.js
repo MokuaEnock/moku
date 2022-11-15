@@ -42,29 +42,75 @@ export default function Projects() {
             </button>
           </span>
         </div>
-        <div className="project-card" id="card2"></div>
-        <div className="project-card" id="card3"></div>
+
+        <div className="project-card" id="card2">
+          <span className="project-card-image">
+            <img src="" />
+          </span>
+          <span className="project-card-title">Machine Learning</span>
+          <span className="project-card-details">
+            <button>Python </button>
+            <button>SciKit</button>
+            <button>Classifier</button>
+          </span>
+          <span className="project-card-info">
+            Sentiment analysis modelling.
+          </span>
+          <span className="project-card-buttons">
+            <button>
+              Live <img src={Vector} alt="" />
+            </button>
+            <button>
+              GitHub <img src={Github} alt="github" />
+            </button>
+          </span>
+        </div>
+
+        <div className="project-card" id="card3">
+          <span className="project-card-image">
+            <img src="" />
+          </span>
+          <span className="project-card-title">Machine Learning</span>
+          <span className="project-card-details">
+            <button>Python </button>
+            <button>SciKit</button>
+            <button>Classifier</button>
+          </span>
+          <span className="project-card-info">
+            Sentiment analysis modelling.
+          </span>
+          <span className="project-card-buttons">
+            <button>
+              Live <img src={Vector} alt="" />
+            </button>
+            <button>
+              GitHub <img src={Github} alt="github" />
+            </button>
+          </span>
+        </div>
       </div>
     );
   }
 
-  function Section() {
-    return <div></div>;
-  }
-  function Section1() {
-    return <div></div>;
-  }
+  // function Section() {
+  //   return <div></div>;
+  // }
+  // function Section1() {
+  //   return <div></div>;
+  // }
 
-  function Footer() {
-    return <div id="projects-footer">Footer</div>;
-  }
+  // function Footer() {
+  //   return <div id="projects-footer">Footer</div>;
+  // }
   return (
     <section id="projects">
       <Header />
       <Body />
-      <Section />
+      {/* <Section />
       <Section1 />
-      <Footer />
+      <Footer /> */}
+
+      <button id="view-all">View All</button>
     </section>
   );
 }
