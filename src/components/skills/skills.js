@@ -1,5 +1,6 @@
 import "./skill.css";
 import { useState, useEffect } from "react";
+import skillData from "./data";
 
 export default function Skills() {
   let [data, setData] = useState(null);
@@ -22,6 +23,19 @@ export default function Skills() {
   //   fetchData();
   // }, []);
 
+  let all = skillData.map((e) => {
+    return (
+      <div className="skills-card">
+        <span className="skills-card-heading">{e.name}</span>
+        <div className="skills-card-list">
+          {e.all.map((k) => {
+            return <span className="skills-card-item">{k}</span>;
+          })}
+        </div>
+      </div>
+    );
+  });
+  
   return (
     <section id="skill">
       <header id="skills-head">Skills</header>

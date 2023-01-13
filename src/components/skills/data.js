@@ -1,7 +1,15 @@
 let skillData = [
   {
     name: "Languages",
-    all: ["javascript", "ruby", "python", "HTML && CSS"],
+    all: ["Javascript", "Ruby", "Python", "HTML && CSS"],
+  },
+  {
+    name: "Framework",
+    all: ["React", "Rails"],
+  },
+  {
+    name: "Libraries",
+    all: [""],
   },
 ];
 
