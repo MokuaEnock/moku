@@ -2,17 +2,17 @@ let skillData = [
   {
     id: 1,
     name: "Languages",
-    all: ["Javascript", "Ruby", "Python", "HTML && CSS"],
+    all: ["Javascript", "Ruby", "Python", "HTML && CSS", "JSON"],
   },
   {
     id: 2,
     name: "Framework",
-    all: ["React", "Rails"],
+    all: ["React", "Rails", "Tensorflow", "SkLearn", "Keras"],
   },
   {
     id: 3,
     name: "Libraries",
-    all: [""],
+    all: ["Selenium", "Beautiful Soup"],
   },
 ];
 

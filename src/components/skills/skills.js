@@ -1,10 +1,10 @@
 import "./skill.css";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import skillData from "./data";
 
 export default function Skills() {
-  let [data, setData] = useState(null);
-  let [isLoading, setIsLoading] = useState(false);
+  // let [data, setData] = useState(null);
+  // let [isLoading, setIsLoading] = useState(false);
 
   // useEffect(() => {
   //   let fetchData = async () => {
