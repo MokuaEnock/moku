@@ -25,23 +25,30 @@ export default function Skills() {
 
   let all = skillData.map((e) => {
     return (
-      <div className="skills-card">
+      <div className="skills-card" key={e.id}>
         <span className="skills-card-heading">{e.name}</span>
         <div className="skills-card-list">
-          {e.all.map((k) => {
-            return <span className="skills-card-item">{k}</span>;
+          {e.all.map((k, index) => {
+            return (
+              <span className="skills-card-item" key={index}>
+                {k}
+              </span>
+            );
           })}
         </div>
       </div>
     );
   });
-  
+
+  console.log(all);
+
   return (
     <section id="skill">
       <header id="skills-head">Skills</header>
 
       <div id="skills-body">
-        <div className="skills-card">
+        {all}
+        {/* <div className="skills-card">
           <span className="skills-card-heading">Languages</span>
           <div className="skills-card-list">
             <span className="skills-card-item">React.Js</span>
@@ -69,7 +76,7 @@ export default function Skills() {
             <span className="skills-card-item">React.Js</span>
             <span className="skills-card-item">React.Js</span>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* <button id="view">View All</button> */}
