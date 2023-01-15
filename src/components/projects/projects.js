@@ -92,24 +92,10 @@ export default function Projects() {
     );
   }
 
-  // function Section() {
-  //   return <div></div>;
-  // }
-  // function Section1() {
-  //   return <div></div>;
-  // }
-
-  // function Footer() {
-  //   return <div id="projects-footer">Footer</div>;
-  // }
   return (
     <section id="projects">
       <Header />
       <Body />
-      {/* <Section />
-      <Section1 />
-      <Footer /> */}
-
       <button id="view-all">View All</button>
     </section>
   );
