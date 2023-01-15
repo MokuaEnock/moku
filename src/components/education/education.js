@@ -1,8 +1,9 @@
 import "./education.css";
 import Cert from "./data";
+import Edus from "./edu";
 
 export default function Education() {
-  console.log(Cert);
+  console.log(Edus);
 
   let Certifications = Cert.map((e) => {
     return (
@@ -15,6 +16,16 @@ export default function Education() {
     );
   });
 
+  let Education = Edus.map((e) => {
+    return (
+      <span key={e.id}>
+        <span className="span-title">{e.institution}</span>
+        <span className="orga">
+          <i className="slant">{e.major}</i> <button>View</button>
+        </span>
+      </span>
+    );
+  });
   return (
     <section id="edu">
       <header id="edu-header">Experience</header>
@@ -47,7 +58,7 @@ export default function Education() {
       <div id="educ">
         <span className="title">Education</span>
         <div className="edu-body">
-          <span>
+          {/* <span>
             <span className="span-title">1. Intro to Machine Learning</span>
             <span className="orga">
               <i className="slant">Kaggle</i> <button>View</button>
@@ -64,7 +75,8 @@ export default function Education() {
             <span className="orga">
               <i className="slant">Kaggle</i> <button>View</button>
             </span>
-          </span>
+          </span> */}
+          {Education}
         </div>
       </div>
 
