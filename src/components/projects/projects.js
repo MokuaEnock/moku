@@ -5,10 +5,11 @@ import Github from "../images/Vector (1).svg";
 import { useState } from "react";
 
 export default function Projects() {
-  let [height, setHeight] = useState("");
+  let [height, setHeight] = useState("max-content");
   function handleButton(e) {
     e.preventDefault();
     console.log("clicked");
+    setHeight("max-content");
   }
   function Header() {
     return (
@@ -100,7 +101,7 @@ export default function Projects() {
   }
 
   return (
-    <section id="projects">
+    <section id="projects" style={{ height: `${height}` }}>
       <Header />
       <Body />
       <button id="view-all" onClick={handleButton}>
