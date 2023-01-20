@@ -4,6 +4,10 @@ import Vector from "../images/Vector.svg";
 import Github from "../images/Vector (1).svg";
 
 export default function Projects() {
+  function handleButton(e) {
+    e.preventDefault();
+    console.log("clicked");
+  }
   function Header() {
     return (
       <div className="projects-header">
@@ -17,6 +21,7 @@ export default function Projects() {
       </div>
     );
   }
+
   function Body() {
     return (
       <div id="projects-body">
@@ -96,7 +101,9 @@ export default function Projects() {
     <section id="projects">
       <Header />
       <Body />
-      <button id="view-all">View All</button>
+      <button id="view-all" onClick={handleButton}>
+        View All
+      </button>
     </section>
   );
 }
