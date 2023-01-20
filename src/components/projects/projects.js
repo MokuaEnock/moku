@@ -2,8 +2,10 @@ import "./projects.css";
 import Search from "../images/search.svg";
 import Vector from "../images/Vector.svg";
 import Github from "../images/Vector (1).svg";
+import { useState } from "react";
 
 export default function Projects() {
+  let [height, setHeight] = useState("");
   function handleButton(e) {
     e.preventDefault();
     console.log("clicked");
