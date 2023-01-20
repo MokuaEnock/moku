@@ -11,6 +11,23 @@ export default function Projects() {
     console.log("clicked");
     setHeight("max-content");
   }
+
+  function Navigation() {
+    return (
+      <header className="bg-gray-800 p-3 flex justify-evenly items-center">
+        <h1 className="text-white font-bold">My App</h1>
+        <nav>
+          <a href="#" className="text-white hover:text-gray-500 mr-4">
+            Home
+          </a>
+          <a href="#" className="text-white hover:text-gray-500">
+            About
+          </a>
+        </nav>
+      </header>
+    );
+  }
+
   function Header() {
     return (
       <div className="projects-header">
@@ -24,6 +41,7 @@ export default function Projects() {
       </div>
     );
   }
+
 
   function Body() {
     return (
@@ -102,6 +120,7 @@ export default function Projects() {
 
   return (
     <section id="projects" style={{ height: `${height}` }}>
+      <Navigation />
       <Header />
       <Body />
       <button id="view-all" onClick={handleButton}>
