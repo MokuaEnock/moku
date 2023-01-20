@@ -3,6 +3,7 @@ import Search from "../images/search.svg";
 import Vector from "../images/Vector.svg";
 import Github from "../images/Vector (1).svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   let [height, setHeight] = useState("max-content");
@@ -12,36 +13,52 @@ export default function Projects() {
     setHeight("max-content");
   }
 
-  function Navigation() {
-    return (
-      <header className="bg-gray-800 p-3 flex justify-evenly items-center">
-        <h1 className="text-white font-bold">My App</h1>
-        <nav>
-          <a href="#" className="text-white hover:text-gray-500 mr-4">
-            Home
-          </a>
-          <a href="#" className="text-white hover:text-gray-500">
-            About
-          </a>
-        </nav>
-      </header>
-    );
-  }
+  // function Navigation() {
+  //   return (
+  //     <header className="bg-gray-800 p-3 flex justify-evenly items-center">
+  //       <h1 className="text-white font-bold">My App</h1>
+  //       <nav>
+  //         <a href="#" className="text-white hover:text-gray-500 mr-4">
+  //           Home
+  //         </a>
+  //         <a href="#" className="text-white hover:text-gray-500">
+  //           About
+  //         </a>
+  //       </nav>
+  //     </header>
+  //   );
+  // }
+
+  // function Header() {
+  //   return (
+  //     <div className="projects-header">
+  //       <span>Latest</span>
+  //       <form>
+  //         <button type="submit">
+  //           <img src={Search} alt="search" />
+  //         </button>
+  //         <input type="text" placeholder="Search" />
+  //       </form>
+  //     </div>
+  //   );
+  // }
 
   function Header() {
     return (
-      <div className="projects-header">
-        <span>Latest</span>
+      <nav className="projects-header">
+        <Link to="/" className="projects-header-home">
+          Home
+        </Link>
+
         <form>
           <button type="submit">
             <img src={Search} alt="search" />
           </button>
           <input type="text" placeholder="Search" />
         </form>
-      </div>
+      </nav>
     );
   }
-
 
   function Body() {
     return (
@@ -120,7 +137,7 @@ export default function Projects() {
 
   return (
     <section id="projects" style={{ height: `${height}` }}>
-      <Navigation />
+      {/* <Navigation /> */}
       <Header />
       <Body />
       <button id="view-all" onClick={handleButton}>

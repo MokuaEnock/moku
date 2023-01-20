@@ -17,13 +17,23 @@
 
 .projects-header {
     height: 5vw;
+    border: thin solid #011F26;
     width: 100%;
-    font-size: 3vw;
-    font-weight: bold;
+    font-size: 1.5vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.projects-header-home {
+    width: 10%;
+    height: 100%;
+    border: thin solid #011F26;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects-header>span {
@@ -32,8 +42,8 @@
 }
 
 .projects-header>form {
-    width: 40%;
-    height: 80%;
+    width: 30%;
+    height: 70%;
     display: flex;
     margin-right: .5vw;
     flex-direction: row;
@@ -46,17 +56,22 @@
     background-color: #011F26;
     border: thin solid;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects-header>form>button>img {
-    height: 100%;
+    height: 80%;
 }
 
 .projects-header>form>input {
     width: 80%;
+    color: #011F26;
     height: 95%;
     border: thin solid;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
 
 }
