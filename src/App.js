@@ -6,6 +6,8 @@ import Landing from "./components/landing/landing";
 import Projects from "./components/projects/projects";
 import Skills from "./components/skills/skills";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Project from "./components/Project/project";
 function App() {
   function Home() {
     return (
@@ -25,7 +27,7 @@ function App() {
         <Route path="/" element={<Home />} />
 
         <Route path="/projects" element={<Projects />}>
-          <Route path="id" />
+          <Route path="id" element={Project} />
         </Route>
       </Routes>
     </Router>
