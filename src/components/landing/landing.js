@@ -18,14 +18,15 @@ export default function Landing() {
           <Link to="/blog"></Link>
           {/* <a href="#">About</a> */}
         </div>
-        <div id="logo">
+
+        <Link id="logo">
           <img src={logo} alt="logo" />
-        </div>
+        </Link>
+
         <div id="socials">
           <a href="#">
             <img src={download} alt="download" />
           </a>
-
           <a href="#">
             <img src={github} alt="github" />
           </a>
