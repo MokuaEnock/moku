@@ -60,6 +60,9 @@ export default function Projects() {
     );
   }
 
+  function Bar() {
+    return <div className="projects-bar">Projects</div>;
+  }
   function Body() {
     return (
       <div id="projects-body">
@@ -139,6 +142,7 @@ export default function Projects() {
     <section id="projects" style={{ height: `${height}` }}>
       {/* <Navigation /> */}
       <Header />
+      <Bar />
       <Body />
       <button id="view-all" onClick={handleButton}>
         View All

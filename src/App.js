@@ -7,15 +7,23 @@ import Projects from "./components/projects/projects";
 import Skills from "./components/skills/skills";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
-  return (
-    <Router>
-      <Routes>
-        {/* <Landing />
+  function Home() {
+    return (
+      <>
+        <Landing />
         <Projects />
         <Skills />
         <Education />
         <About />
-        <Contact /> */}
+        <Contact />
+      </>
+    );
+  }
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+
         <Route path="/projects" element={<Projects />}></Route>
       </Routes>
     </Router>
