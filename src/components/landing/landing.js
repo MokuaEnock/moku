@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./landing.css";
 import ban from "../images/Full-Stack.svg";
 import logo from "../images/Logo.svg";
@@ -11,8 +13,8 @@ export default function Landing() {
     return (
       <header>
         <div id="sects">
-          <a href="#">Projects</a>
-          <a href="#">Skills</a>
+          <Link to="/projects">Projects</Link>
+          <Link to="/skills">Skills</Link>
           <a href="#">About</a>
         </div>
         <div id="logo">
