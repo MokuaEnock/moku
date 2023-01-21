@@ -15,7 +15,8 @@ export default function Landing() {
         <div id="sects">
           <Link to="/projects">Projects</Link>
           <Link to="/skills">Skills</Link>
-          <a href="#">About</a>
+          <Link to="/blog"></Link>
+          {/* <a href="#">About</a> */}
         </div>
         <div id="logo">
           <img src={logo} alt="logo" />
