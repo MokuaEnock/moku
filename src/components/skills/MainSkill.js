@@ -2,10 +2,10 @@ import "./mainskill.css";
 
 export default function MainSkill() {
   return (
-    <main className="main-skill">
+    <main id="main-skill">
       <h2>Skills</h2>
 
-      <section>
+      <section className="skill-display">
         <div className="skill-display-header">
           <h3>Skill Type</h3>
           <span></span>
