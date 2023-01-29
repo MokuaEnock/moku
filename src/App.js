@@ -6,6 +6,7 @@ import Landing from "./components/landing/landing";
 import Projects from "./components/projects/projects";
 import Skills from "./components/skills/skills";
 import MainSkill from "./components/skills/MainSkill";
+import SkillHeader from "./components/skills/SkillHeader";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -24,6 +25,13 @@ function App() {
     );
   }
 
+  function SkillSection(){
+    return<>
+      <SkillHeader/>
+      <MainSkill/>
+    </>
+  }
+
   return (
     <Router>
       <Routes>
@@ -33,7 +41,7 @@ function App() {
           <Route path="id" element={Project} />
         </Route>
 
-        <Route path="skills" element={<MainSkill/>}></Route>
+        <Route path="skills" element={<SkillSection/>}></Route>
       </Routes>
     </Router>
   );
