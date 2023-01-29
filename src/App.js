@@ -29,6 +29,8 @@ function App() {
         <Route path="/projects" element={<Projects />}>
           <Route path="id" element={Project} />
         </Route>
+
+        <Route path="skills" element={<Skills/>}></Route>
       </Routes>
     </Router>
   );
