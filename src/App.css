@@ -3,7 +3,7 @@
 
 * {
   font-family: 'Poppins', sans-serif;
-
+  font-size: 1.3vw;
 }
 
 body {
@@ -28,4 +28,8 @@ body {
 #root>* {
   width: 100%;
   border: thin solid white;
+}
+
+footer {
+  height: 4vw;
 }
