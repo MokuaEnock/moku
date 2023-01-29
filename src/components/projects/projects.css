@@ -143,7 +143,7 @@ input:focus {
 }
 
 .project-card-title {
-  font-size: 1.8vw;
+  font-size: 1.5vw;
   color: white;
   text-align: center;
   height: 10%;
@@ -160,7 +160,9 @@ input:focus {
 .project-card-details > button {
   height: 80%;
   width: max-content;
-  font-size: 1.3vw;
+  padding-left: .5vw;
+  padding-right: .5vw;
+  font-size: 1vw;
   border: thin solid transparent;
   background-color: #03a6a6;
   color: #011f26;
