@@ -113,7 +113,7 @@ footer>p {
 }
 
 .footer-main>span {
-  border: thin solid white;
+  /* border: thin solid white; */
   width: 20%;
   height: 90%;
   display: flex;
