@@ -1,3 +1,5 @@
-export default function MainSkill(){
-    return<main>Main Skill</main>
+import "./mainskill.css";
+
+export default function MainSkill() {
+  return <main className="main-skill">Main Skill</main>;
 }
