@@ -1,12 +1,24 @@
 #main-header {}
 
-#skill-header{
+#skill-header {
     height: 4vw;
+    border: thin solid transparent;
 }
+
+#skill-header>a {
+    font-size: 1.3vw;
+
+}
+
+#skill-header>a:hover {
+    color: #03A6A6;
+    text-decoration: underline;
+}
+
 
 #skill-search {
     width: 25%;
-    border: thin solid white;
+    border: thin solid #03A6A6;
     height: 80%;
     display: flex;
     flex-direction: row;
@@ -33,6 +45,10 @@
 #skill-search>button {
     width: 30%;
     height: 100%;
+    color: #011F26;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    background-color: #03A6A6;
     border: thin solid transparent;
     font-size: 1vw;
     display: flex;
