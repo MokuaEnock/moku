@@ -27,7 +27,7 @@ body {
 
 #root>* {
   width: 100%;
-  border: thin solid white;
+  /* border: thin solid white; */
 }
 
 footer {
@@ -47,7 +47,6 @@ footer>p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: thin solid white;
   text-align: center;
 
 }
@@ -78,14 +77,14 @@ footer>p {
 
 .footer-header>form {
   width: 40%;
-  border:thin solid #011F26 ;
+  border: thin solid #03A6A6;
 }
 
 .footer-form input {
   height: 100%;
   width: 70%;
-  border:thin solid transparent ;
-
+  font-size: 1vw;
+  border: thin solid transparent;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,11 +93,35 @@ footer>p {
 }
 
 .footer-form button {
+  font-size: 1vw;
   text-align: center;
   background-color: #011F26;
   color: #03A6A6;
   width: 30%;
-  border:thin solid #011F26 ;
-
+  border: thin solid #011F26;
   height: 100%;
 }
+
+.footer-main {
+  width: 100%;
+  height: 18vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.footer-main>span {
+  border: thin solid white;
+  width: 20%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+
+/* .footer-main>span>a {} */
