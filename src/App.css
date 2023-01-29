@@ -52,8 +52,53 @@ footer>p {
 
 }
 
-.footer-header{
-  height:20%;
-  border: thin solid white;
+.footer-header {
+  height: 4vw;
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-header>* {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #011F26;
+  background-color: #03A6A6;
+
+}
+
+.footer-header>p {
+  width: 60%;
+}
+
+.footer-header>form {
+  width: 40%;
+  border:thin solid #011F26 ;
+}
+
+.footer-form input {
+  height: 100%;
+  width: 70%;
+  border:thin solid transparent ;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.footer-form button {
+  text-align: center;
+  background-color: #011F26;
+  color: #03A6A6;
+  width: 30%;
+  border:thin solid #011F26 ;
+
+  height: 100%;
 }
