@@ -10,7 +10,7 @@ export default function Experience() {
       <section id="experience-section">
         <div className="experience-header-display">
           <span></span>
-          <span>Experience</span>
+          <p>Experience</p>
           <span></span>
         </div>
 
