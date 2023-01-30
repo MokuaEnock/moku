@@ -15,7 +15,8 @@ export default function Landing() {
         <div id="sects">
           <Link to="/projects">Projects</Link>
           <Link to="/skills">Skills</Link>
-          <Link to="/blog"></Link>
+          <Link to="/experience">Experience</Link>
+          <Link to="/blog">Blog</Link>
           {/* <a href="#">About</a> */}
         </div>
 

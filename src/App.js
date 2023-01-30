@@ -47,7 +47,7 @@ function App() {
 
         <Route path="skills" element={<SkillSection />}></Route>
 
-        <Route path="experince" element={<Experience />}></Route>
+        <Route path="experience" element={<Experience />}></Route>
       </Routes>
 
       <Footer />
