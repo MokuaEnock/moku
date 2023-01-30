@@ -1,5 +1,22 @@
 import ExperinceHeader from "./ExperienceHeader";
+import Education from "./Education";
+import Certification from "./Certiification";
+import Events from "./Events";
 
 export default function Experience() {
-  return <main>Experinces section</main>;
+  function Exp() {
+    return <section>Experinces</section>;
+  }
+
+  return (
+    <>
+      <ExperinceHeader />
+      <main>
+        <Exp />
+        <Education />
+        <Certification />
+        <Events />
+      </main>
+    </>
+  );
 }
