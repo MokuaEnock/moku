@@ -1,0 +1,15 @@
+#experience-section {
+  border: thin solid white;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#experience-section * {
+  border: thin solid white;
+}
+
+
