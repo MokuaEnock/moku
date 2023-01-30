@@ -12,6 +12,7 @@ import Footer from "./components/footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Project from "./components/Project/project";
+import Experience from "./components/Experience/Experince";
 function App() {
   function Home() {
     return (
@@ -46,8 +47,7 @@ function App() {
 
         <Route path="skills" element={<SkillSection />}></Route>
 
-        <Route path="experince"></Route>
-        
+        <Route path="experince" element={<Experience />}></Route>
       </Routes>
 
       <Footer />
